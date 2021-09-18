@@ -6,7 +6,7 @@ The functionality can easily be expanded to fully include all 144 zodiac combina
 
 Code is not the cleanest it could be - this was done over a year ago and I have not refactored it to reflect my modern-day JS knowledge just yet.
 
-There is a night-mode button in the nav bar, and athe second calculator will return rather unfavourable words no matter what...;)
+There is a night-mode button in the nav bar, and athe second calculator will return rather unfavourable words no matter what ;)
 
 You'll also see that the two types of calculator are different from a UI persppective - the second on is best in terms of UX and UI, as it incorporates dropdown selects.
 
