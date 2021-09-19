@@ -1,0 +1,269 @@
+/* GENERAL SET-UP WITH MODE & THEME STYLING */
+
+@font-face {
+    font-family: 'Space and Astronomy';
+    src: url('./fonts/SpaceAndAstronomy-pZRD.ttf');
+}
+
+@font-face {
+    font-family: 'Zdyk Cancer';
+    src: url('./fonts/ZdykCancer-9YKLy.ttf');
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron {
+    background-color: #343A40;
+    margin-top: 5.5rem;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+}
+
+.header-low-margin {
+    margin-top: 0.8rem;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Zdyk Cancer', arial, sans-serif;
+    letter-spacing: 2px;
+    margin-top: 1.5rem;
+}
+
+h6,
+nav {
+    font-family: 'Space and Astronomy', arial, sans-serif;
+}
+
+p {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+
+.dark-mode {
+    background-color: #000;
+    color: #FFFFFF;
+    filter: brightness(.8) contrast(1.2);
+}
+
+.vanish {
+    display: none;
+}
+
+.darken-image {
+    filter: brightness(50%);
+}
+
+/* INDEX PAGE */
+
+.full-screen-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/space.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.landing-title {
+    font-family: 'Space and Astronomy', arial, sans-serif;
+    font-size: 3rem;
+}
+
+.landing-title,
+.landing-p {
+    color: #FFFFFF;
+    padding: 1rem;
+}
+
+.landing-p {
+    font-size: 1.1rem;
+}
+
+#landing-btn {
+    font-family: 'Zdyk Cancer', arial, sans-serif;
+    font-size: 1.7rem;
+}
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+
+.feature-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.features img {
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+
+button {
+    margin-left: 1rem;
+}
+
+#scroll {
+    margin-left: 0;
+}
+
+.features .btn:hover {
+    background-color: #333;
+}
+
+/* COMPATIBILITY PAGE */
+
+.form-element {
+    margin-top: 3rem;
+}
+
+.flex {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* ZODIAC SIGN PAGE */
+
+.content {
+    cursor: pointer;
+    margin: auto;
+    max-width: 400px;
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+}
+
+.content .content-overlay {
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    bottom: 0;
+    height: 99%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.4s ease-in-out 0s;
+    width: 100%;
+}
+
+.content-image {
+    width: 100%;
+}
+
+img {
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.content-details {
+    -moz-transform: translate(-50%, -50%);
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -webkit-transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    left: 50%;
+    opacity: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-in-out 0s;
+    width: 100%;
+}
+
+.content .content-details {
+    left: 50%;
+    opacity: 1;
+    top: 50%;
+}
+
+.content-details h3 {
+    color: #FFF;
+    display: none;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+.p-smaller p {
+    font-size: 1rem;
+}
+
+/* FUN COMPATIBILITY PAGE */
+
+.select-style {
+    display: block;
+    text-align: center;
+}
+
+#track1,
+#track2 {
+    margin: 2rem;
+}
+
+#output-sign1,
+#output-sign2,
+#amp {
+    font-family: 'Space and Astronomy', arial, sans-serif;
+    font-size: 2rem;
+}
+
+#display-result {
+    padding: 1rem;
+}
+
+/* FOOTER */
+
+.page-footer {
+    background-color: #222;
+    color: #CCC;
+    margin-top: 2.5rem;
+    padding: 60px 0 30px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+
+/* PREVENT OVERLAY TEXT BEING CUT OFF ON MID-SIZE SCREENS */
+
+@media only screen and (max-width: 1000px) {
+    .date {
+        font-size: 1.1rem;
+    }
+}
+
+/* STOP BUTTON FROM DISPLAYING INCORRECTLY AT TABLET WIDTH */
+
+@media only screen and (max-width: 768px) {
+    button {
+        margin-left: 0;
+    }
+}
+
+/* PREVENT P FROM BECOMING SLIGHTLY CUT OFF AT TABLET WIDTH */
+
+@media only screen and (max-width: 368px) {
+    .up-margin-p {
+        margin: 0 2rem;
+    }
+}
