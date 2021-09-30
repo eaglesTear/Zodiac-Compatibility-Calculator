@@ -1,3 +1,10 @@
+![astrology3](https://user-images.githubusercontent.com/68791163/135515560-12fa520f-8b9d-41f6-9e11-8fdf758911e2.PNG)
+![astrology4](https://user-images.githubusercontent.com/68791163/135515561-6a3a2d54-5208-4b39-bf51-a10e5d007d4e.PNG)
+![astrology5](https://user-images.githubusercontent.com/68791163/135515569-95da9598-9a6f-48a6-a6a1-72f473333d79.PNG)
+![astrology](https://user-images.githubusercontent.com/68791163/135515571-dde1a924-8266-4ae8-a376-177cce4fb132.PNG)
+![astrology2](https://user-images.githubusercontent.com/68791163/135515577-0a868a1c-b008-4ba4-ac1a-93832a62f1ae.PNG)
+
+
 # Zodiac-Compatibility-Calculator
 Prototype site with two experimental (and comedic!) Zodiac calculators, night modes and jQuery animations.
 
